@@ -1,0 +1,18 @@
+{
+    "sourceFile": "js-brom-1/scrip.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1685150780220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1685150780220,
+            "name": "Commit-0",
+            "content": "const input = document.querySelector('#texto');\r\nconst resultado = document.getElementById('resultado');\r\ninput.addEventListener('input', function(){\r\n    const text = input.value.toUpperCase();\r\n    resultado.textContent = text;\r\n});\r\n\r\nconst boton = document.getElementsByClassName('btn')[0]; \r\n    boton.addEventListener('Click', function(){\r\n    const text = input.value.toUpperCase();\r\n    resultado.textContent = text;\r\n    \r\n});"
+        }
+    ]
+}
